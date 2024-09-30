@@ -88,6 +88,20 @@ i {
     font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+    .nav-item {
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;  
+        text-align: center;
+        border-bottom: 1px solid #1d5078;
+        font-weight: bold;
+        color: #042c4b !important;
+        font-size: 0.8rem;
+        margin-right: 0%;
+        margin-left: -3%;
+    }
+}
+
 .nav-link.active {
     background-color: #1d5078 !important;
     color: white !important;
